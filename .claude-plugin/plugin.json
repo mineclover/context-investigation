@@ -1,0 +1,24 @@
+{
+  "name": "context-investigation",
+  "version": "0.1.0",
+  "description": "Context-bearing environment discovery across local, remote, document, agent, skill, connector, memory, and runtime surfaces (discover-context-environments) and ownership-aware investigation storage resolution and persistence planning (resolve-investigation-storage)",
+  "author": {
+    "name": "mineclover",
+    "url": "https://github.com/mineclover"
+  },
+  "homepage": "https://github.com/mineclover/context-investigation",
+  "repository": "https://github.com/mineclover/context-investigation",
+  "license": "Apache-2.0",
+  "keywords": [
+    "context-discovery",
+    "investigation",
+    "storage-resolution",
+    "handover",
+    "claude-code"
+  ],
+  "skills": [
+    "./discover-context-environments",
+    "./analyze-undocumented-projects",
+    "./resolve-investigation-storage"
+  ]
+}

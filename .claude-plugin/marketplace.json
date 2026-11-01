@@ -1,0 +1,22 @@
+{
+  "name": "context-investigation",
+  "description": "Standalone Claude Code plugin marketplace for Context-Bearing Environment Discovery & Investigation Storage Resolution.",
+  "owner": {
+    "name": "mineclover",
+    "url": "https://github.com/mineclover"
+  },
+  "plugins": [
+    {
+      "name": "context-investigation",
+      "source": "./",
+      "description": "Context-bearing environment discovery across local, remote, document, agent, skill, connector, memory, and runtime surfaces (discover-context-environments) and ownership-aware investigation storage resolution and persistence planning (resolve-investigation-storage)",
+      "license": "Apache-2.0",
+      "category": "first_party",
+      "skills": [
+        "./discover-context-environments",
+        "./analyze-undocumented-projects",
+        "./resolve-investigation-storage"
+      ]
+    }
+  ]
+}

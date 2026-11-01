@@ -1,0 +1,30 @@
+{
+  "name": "context-investigation",
+  "version": "0.1.0",
+  "description": "Context-bearing environment discovery (discover-context-environments) and ownership-aware investigation storage resolution (resolve-investigation-storage) skills for Claude Code, Codex, and Antigravity.",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/mineclover/context-investigation#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mineclover/context-investigation.git"
+  },
+  "keywords": [
+    "agent-skills",
+    "npx-skills",
+    "claude-code",
+    "claude-plugin",
+    "context-discovery",
+    "storage-resolution",
+    "investigation",
+    "handover"
+  ],
+  "files": [
+    "discover-context-environments",
+    "analyze-undocumented-projects",
+    "resolve-investigation-storage",
+    ".claude-plugin",
+    "plugin.json",
+    "README.md",
+    "LICENSE"
+  ]
+}
