@@ -113,7 +113,7 @@ skills-catalog npx-preset apply context-investigation --clean-zero-config --exec
 GitHub CLI(`gh`)가 로그인된 터미널에서 아래 명령을 실행하면 `mineclover/context-investigation` 공개 저장소 생성·푸시와 `Skills-Platform` 서브모듈 등록·커밋까지 한 번에 완료됩니다.
 
 ```bash
-cd /Users/junwoobang/workflow/Skills-Platform
+cd <Skills-Platform 저장소 루트>
 
 # 1) 임시 경로로 분리 후 로컬 Git 초기화 및 첫 커밋
 TMP_REPO="$(mktemp -d)/context-investigation"
